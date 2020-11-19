@@ -1,0 +1,17 @@
+Tema proiectului: Aplicatie meniu digital pentru un restaurant
+
+Specificatii:
+
+Categoriile de mancaruri din meniu sunt identificate unic prin nume (ex: Bauturi, Mancare de post etc...).
+Fiecare fel de mancare este identificat unic prin nume. De asemenea apartine doar unei singure categorii.
+
+Ingredientele din care este compus felul de mancare sunt identificate unic prin nume.
+Fiecare ingredient poate face parte din mai multe feluri de mancare si fiecare fel de mancare poate contine mai multe ingrediente.
+
+Pentru fiecare ingredient se vor inregistra informatiile despre acestea: nume, descriere, dimensiune/cantitate etc.. 
+Pentru fiecare ingredient se vor inregistra separat datele care difera la acelasi aliment: data expirare, data cumpararii, etc...
+Clientul nu poate comanda un fel de mancare daca nu sunt suficiente ingrediente sau daca acesta este expirat.
+ 
+Aplicatia va permite logarea printr-un user si o parola a unui sau mai multor administratori. (Aici nu stiu daca ma duc prea departe cu aplicatia).
+
+La final se va genera o chitanta identificata printr-un id unic al comenzii si va contine diferite informatii: numar masa, pretul total si felurile de mancare comandate.
