@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1CD475A1-974E-4E24-23E4-B703F829ED33">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-19 22:58:07 UTC</createdTime>
+<ownerDesignName>BD-P Meniu Digital</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

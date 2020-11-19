@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FB26CF05-2ACE-0773-B90F-F8ED98DFC95D" mainViewID="CD186CD1-204E-9D4F-4216-68A72F5150A4">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-19 22:58:06 UTC</createdTime>
+<ownerDesignName>BD-P Meniu Digital</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
