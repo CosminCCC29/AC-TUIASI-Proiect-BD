@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1364B1CA-464B-D56C-4B0F-EC28EECD11B9" mainViewID="239F0BC4-D39F-7F7F-F09C-D0EF0C87E0D0">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:08:51 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

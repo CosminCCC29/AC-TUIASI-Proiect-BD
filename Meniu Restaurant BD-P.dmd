@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Meniu Restaurant BD-P" id="44D18FBD-33BF-1C68-422D-716787E0286A" version="3.5">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:08:51 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>44D18FBD-33BF-1C68-422D-716787E0286A</designId>
+</OSDM_Design>

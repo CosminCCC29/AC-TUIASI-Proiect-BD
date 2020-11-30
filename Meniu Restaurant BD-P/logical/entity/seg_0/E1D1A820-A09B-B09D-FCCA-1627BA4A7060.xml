@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1D1A820-A09B-B09D-FCCA-1627BA4A7060" name="Administratori">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:09:02 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_administrator" id="C74F0548-8BE3-5D25-9B18-C024267D1752">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:09:19 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume_prenume_cont" id="0B2EAEF9-F49A-7D5F-5562-55C5B14D75C9">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:09:36 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parola_cont" id="5812E9D4-1419-59B3-D023-BF13826A7B98">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:09:51 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8476A5D2-6D1C-B408-37BE-FA24B581819D" name="Administratori PK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:09:30 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C74F0548-8BE3-5D25-9B18-C024267D1752</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A5600734-003D-0DB0-7061-0ADA166AA5EF" name="nume_prenume_cont_ administrator_UKv1">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:13:42 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<newElementsIDs>0B2EAEF9-F49A-7D5F-5562-55C5B14D75C9</newElementsIDs>
+<usedAttributes>
+<attributeRef>0B2EAEF9-F49A-7D5F-5562-55C5B14D75C9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="85F2FBFB-A0D4-6986-A6C0-7E4BD1393FF5" name="parola_cont_ administrator_UKv1">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:14:01 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<newElementsIDs>5812E9D4-1419-59B3-D023-BF13826A7B98</newElementsIDs>
+<usedAttributes>
+<attributeRef>5812E9D4-1419-59B3-D023-BF13826A7B98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

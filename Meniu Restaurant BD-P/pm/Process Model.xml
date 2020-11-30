@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C1B639A2-52F3-CF91-F484-F622C44627B0">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:08:52 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
