@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA33EA57-5C55-0DB8-2A37-3CD212D1C98F" name="Meniuri">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="875DE9BA-A1A6-6153-8503-58B36B543229" name="Categorii">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:02 UTC</createdTime>
+<createdTime>2020-11-30 13:17:12 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nr_meniu" id="2340F15E-E840-38CE-432D-BE4B4C6EB6E1">
+<Attribute name="nr_categorie" id="E29FC172-7CFC-3DCC-DEA0-08F9589780FD">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:08 UTC</createdTime>
+<createdTime>2020-11-30 13:17:31 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nume" id="EA319EC5-3E22-320C-FE22-5B2E122EAC78">
+<Attribute name="nume" id="B97C898C-D5FA-D913-6A76-1941FD95F6DA">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:10 UTC</createdTime>
+<createdTime>2020-11-30 13:17:49 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -41,11 +41,26 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nr_meniu" id="4893713F-7E0E-F160-EED0-5B4965396751">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:58:46 UTC</createdTime>
+<generatorID>D793A5B5-8759-4346-5BB7-98D33E7821BF</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<referedAttribute>2340F15E-E840-38CE-432D-BE4B4C6EB6E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E05CF41D-90F5-3BC2-E594-984C4B473C36" name="Meniuri_restaurant PK">
+<identifier id="F6405EDF-B01E-D937-8650-C859F368DDD4" name="Categorii PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:25 UTC</createdTime>
+<createdTime>2020-11-30 13:17:46 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -53,20 +68,22 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2340F15E-E840-38CE-432D-BE4B4C6EB6E1</attributeRef>
+<attributeRef>E29FC172-7CFC-3DCC-DEA0-08F9589780FD</attributeRef>
+<attributeRef>4893713F-7E0E-F160-EED0-5B4965396751</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="7DF7CE62-FB4E-AF38-6D83-FF837C19E1EB" name="nume_meniu_UK">
+<identifier id="5BE88090-0374-1E62-24CF-B568BBCC8CC3" name="nume_categorie_nr_meniu_UK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:54 UTC</createdTime>
+<createdTime>2020-11-30 13:18:01 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="false"/>
 </engineerTo>
-<newElementsIDs>EA319EC5-3E22-320C-FE22-5B2E122EAC78</newElementsIDs>
+<newElementsIDs>B97C898C-D5FA-D913-6A76-1941FD95F6DA,D793A5B5-8759-4346-5BB7-98D33E7821BF</newElementsIDs>
 <usedAttributes>
-<attributeRef>EA319EC5-3E22-320C-FE22-5B2E122EAC78</attributeRef>
+<attributeRef>B97C898C-D5FA-D913-6A76-1941FD95F6DA</attributeRef>
+<attributeRef>4893713F-7E0E-F160-EED0-5B4965396751</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

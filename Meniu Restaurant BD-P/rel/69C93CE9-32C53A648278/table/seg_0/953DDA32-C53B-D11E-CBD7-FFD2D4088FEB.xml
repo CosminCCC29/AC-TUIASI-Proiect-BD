@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="953DDA32-C53B-D11E-CBD7-FFD2D4088FEB" name="Preparate">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<generatorID>AF6755E4-4587-29E9-E67C-3A358A481785</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Produse_Produse_ID" id="CA29AB41-9AC7-EA6C-BB67-C19CF47A6273">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B9FD123-46D0-6C84-C668-C181D12FEAEB" referredColumn="5B38E059-F8B1-2B44-F7C5-BCA2BF8C0100"/>
+</associations>
+</Column>
+<Column name="Categorii_nr_categorie" id="05BDBB3F-C770-52AA-C4C6-A5023FB8738F">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<generatorID>4A78D4C4-E674-BFC0-C1B2-34F511B27401</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18EA8EC5-597A-64EA-A84E-E981DE605D28" referredColumn="A9C8DE75-06C1-0774-1331-927E85A90F3F"/>
+</associations>
+</Column>
+<Column name="Categorii_Meniuri_nr_meniu" id="F4ED1EAC-BE32-D6A0-A73C-B02044398F0E">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<generatorID>F0F7BB11-76E6-B7D9-4C0B-DBF1864AAA5A</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18EA8EC5-597A-64EA-A84E-E981DE605D28" referredColumn="BE50321F-EF5B-5B44-3F22-8005FEB538CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45C332E5-5E40-5AC4-1BF7-51C8C60420C9" name="Preparate_PK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="CA29AB41-9AC7-EA6C-BB67-C19CF47A6273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC67BF58-35CC-8765-3A37-111FCFCC8286" name="Preparate_Produse_FK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<generatorID>9BD9615E-1FF8-73E3-2AC0-C44B1829AEAF</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA29AB41-9AC7-EA6C-BB67-C19CF47A6273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E8935F3-5F34-7B35-73EF-846828C35C12" name="Preparate_Categorii_FK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<generatorID>1319F938-C919-BB00-FC9C-E375E461CE53</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05BDBB3F-C770-52AA-C4C6-A5023FB8738F"/>
+<colUsage columnID="F4ED1EAC-BE32-D6A0-A73C-B02044398F0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

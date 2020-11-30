@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="013E2090-DC71-543A-D86D-45F8590CFBF6" name="detalii_ingrediente">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<generatorID>EE4CB509-7873-A851-1BF2-72A5E23E09B8</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

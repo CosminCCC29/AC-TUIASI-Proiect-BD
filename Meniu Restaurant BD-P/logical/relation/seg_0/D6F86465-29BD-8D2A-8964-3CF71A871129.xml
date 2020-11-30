@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="administratori_meniuri_FK" directorySegmentName="seg_0" id="D6F86465-29BD-8D2A-8964-3CF71A871129">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 13:16:09 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<sourcePk>8476A5D2-6D1C-B408-37BE-FA24B581819D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>administreaza</nameOnSource>
+<nameOnTarget>este administrat de</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E1D1A820-A09B-B09D-FCCA-1627BA4A7060</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA33EA57-5C55-0DB8-2A37-3CD212D1C98F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

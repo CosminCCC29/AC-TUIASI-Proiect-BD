@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BD-P Meniu Digital" id="D72A9006-15A0-E1F0-822A-5BEE3ED1D1B8" version="3.5">
-<createdBy>cosmi</createdBy>
-<createdTime>2020-11-19 22:58:06 UTC</createdTime>
-<ownerDesignName>BD-P Meniu Digital</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>D72A9006-15A0-E1F0-822A-5BEE3ED1D1B8</designId>
-</OSDM_Design>

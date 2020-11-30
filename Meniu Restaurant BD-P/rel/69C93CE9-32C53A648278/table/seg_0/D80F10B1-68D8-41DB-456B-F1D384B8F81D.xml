@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D80F10B1-68D8-41DB-456B-F1D384B8F81D" name="Bauturi">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<generatorID>EA8BDE6E-CE18-12BD-A8B2-191E3A44D353</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Produse_Produse_ID" id="57A4054B-ADA0-DC3D-94F4-0B2CB0FE41BB">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F8CA6E5-7060-FD2F-B174-FBDF6CF6BF51" referredColumn="5B38E059-F8B1-2B44-F7C5-BCA2BF8C0100"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A91F389-E86B-7237-8DA6-B46BC0FC225A" name="Bauturi_PK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="57A4054B-ADA0-DC3D-94F4-0B2CB0FE41BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF25E134-2104-3C7C-1CC7-2DD40A529F70" name="Bauturi_Produse_FK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-11-30 16:00:00 UTC</createdTime>
+<generatorID>1163B8BF-83E1-6807-7EE2-6D4DFFF3C60B</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57A4054B-ADA0-DC3D-94F4-0B2CB0FE41BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
