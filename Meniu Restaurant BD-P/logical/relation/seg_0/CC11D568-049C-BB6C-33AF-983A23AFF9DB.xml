@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="comenzi_produse" directorySegmentName="seg_0" id="CC11D568-049C-BB6C-33AF-983A23AFF9DB">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 13:34:02 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<sourcePk>4BE2D38E-C243-EACF-CA4D-65015CF78501</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>36118F53-198A-3086-A3A3-F97B61D2E6E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8E67E07-4E78-B03F-B60D-407D8FE98BB9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

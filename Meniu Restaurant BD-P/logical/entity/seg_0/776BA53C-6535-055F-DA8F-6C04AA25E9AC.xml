@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA33EA57-5C55-0DB8-2A37-3CD212D1C98F" name="Meniuri">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="776BA53C-6535-055F-DA8F-6C04AA25E9AC" name="Produse_bauturi">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:02 UTC</createdTime>
+<createdTime>2020-12-01 10:18:45 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -11,13 +11,14 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>A8E67E07-4E78-B03F-B60D-407D8FE98BB9</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nr_meniu" id="2340F15E-E840-38CE-432D-BE4B4C6EB6E1">
+<Attribute name="nr_bautura" id="F15D823F-ACB3-9A56-DEBC-8545840F07EC">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:08 UTC</createdTime>
+<createdTime>2020-12-01 10:18:58 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -25,12 +26,26 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_categorie_bauturi" id="913DA35E-F193-F8F9-6F9F-10699C867780">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 10:23:53 UTC</createdTime>
+<generatorID>41AB51B6-B2F3-025D-F589-93F8759F05F5</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<referedAttribute>447E76A1-9F51-87D6-48D0-6E75E34FD5C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nume_meniu" id="EA319EC5-3E22-320C-FE22-5B2E122EAC78">
+<Attribute name="tip_bautura" id="5E05A373-6566-CFEA-213C-8A62E8715C87">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:10 UTC</createdTime>
+<createdTime>2020-12-01 12:07:54 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -38,35 +53,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E05CF41D-90F5-3BC2-E594-984C4B473C36" name="Meniuri_restaurant PK">
+<identifier id="1251A77F-954C-A0BD-DBFB-186BE4B1F25A" name="Produse_bauturi PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:25 UTC</createdTime>
+<createdTime>2020-12-01 10:19:45 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="false"/>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2340F15E-E840-38CE-432D-BE4B4C6EB6E1</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="7DF7CE62-FB4E-AF38-6D83-FF837C19E1EB" name="nume_meniu_UK">
-<createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:54 UTC</createdTime>
-<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="false"/>
-</engineerTo>
-<newElementsIDs>EA319EC5-3E22-320C-FE22-5B2E122EAC78</newElementsIDs>
-<usedAttributes>
-<attributeRef>EA319EC5-3E22-320C-FE22-5B2E122EAC78</attributeRef>
+<attributeRef>F15D823F-ACB3-9A56-DEBC-8545840F07EC</attributeRef>
+<attributeRef>913DA35E-F193-F8F9-6F9F-10699C867780</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

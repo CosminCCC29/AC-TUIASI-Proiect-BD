@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA33EA57-5C55-0DB8-2A37-3CD212D1C98F" name="Meniuri">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36118F53-198A-3086-A3A3-F97B61D2E6E9" name="Comenzi">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:02 UTC</createdTime>
+<createdTime>2020-12-01 13:28:25 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nr_meniu" id="2340F15E-E840-38CE-432D-BE4B4C6EB6E1">
+<Attribute name="id_comanda" id="3D09D89E-3A32-7E2F-07E4-0E43958E84D8">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:08 UTC</createdTime>
+<createdTime>2020-12-01 13:28:45 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -25,27 +25,39 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nume_meniu" id="EA319EC5-3E22-320C-FE22-5B2E122EAC78">
+<Attribute name="data_comanda" id="39137868-D887-ECC2-14AD-4F80501B0B16">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:10 UTC</createdTime>
+<createdTime>2020-12-01 13:42:25 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_masa" id="1BEBA3EE-D1D9-D233-0972-43634255CF06">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 13:41:01 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E05CF41D-90F5-3BC2-E594-984C4B473C36" name="Meniuri_restaurant PK">
+<identifier id="4BE2D38E-C243-EACF-CA4D-65015CF78501" name="Comenzi PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:25 UTC</createdTime>
+<createdTime>2020-12-01 13:29:00 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -53,20 +65,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2340F15E-E840-38CE-432D-BE4B4C6EB6E1</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="7DF7CE62-FB4E-AF38-6D83-FF837C19E1EB" name="nume_meniu_UK">
-<createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:12:54 UTC</createdTime>
-<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="false"/>
-</engineerTo>
-<newElementsIDs>EA319EC5-3E22-320C-FE22-5B2E122EAC78</newElementsIDs>
-<usedAttributes>
-<attributeRef>EA319EC5-3E22-320C-FE22-5B2E122EAC78</attributeRef>
+<attributeRef>3D09D89E-3A32-7E2F-07E4-0E43958E84D8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
