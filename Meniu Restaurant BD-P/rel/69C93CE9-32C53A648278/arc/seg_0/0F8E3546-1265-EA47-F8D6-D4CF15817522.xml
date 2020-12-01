@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="0F8E3546-1265-EA47-F8D6-D4CF15817522" name="FKArc_1">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:35:38 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>9CDC2DE1-DE5A-8EFD-86FA-C7380D817355</table>
+<fkeys>
+<fkeyID>71A5BF1A-E5B1-F82E-DA2A-AEBBDEAD7763</fkeyID>
+<fkeyID>346282D2-CD93-9E8D-2668-361523BB7A58</fkeyID>
+</fkeys>
+</FKArc>

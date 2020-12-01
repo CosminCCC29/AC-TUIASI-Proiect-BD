@@ -1,0 +1,29 @@
+Tema proiectului: Aplicatie meniu digital pentru un restaurant
+GitHub: https://github.com/CosminCCC29/Proiect-BD
+
+Specificatii:
+
+Un meniu va fi poate format din mai mai multe categorii. Acesta este identificat unic printr-un numar de ordine si va avea un nume unic.
+Acesta este administrat de unul sau mai multi administratori. Administratorii se vor loga cu un id, nume si parola.
+
+Meniul poate contine unul sau mai multe categorii.
+Categoriile sunt identificate unic in meniu printr-un numar de ordine. si vor avea de asemenea si un nume unic doar in cadrul unuia din meniuri.
+Fiecare categorie face parte doar din una din cele 2 tipuri de categorii: preparate sau bauturi. Aceste doua tipuri de categorii li se vor atribuii cate un numar de ordine pentru categoria respectiva.
+
+Categoriile pot contine unul sau mai multe produse.
+Prousele sunt identificate printr-un numar unic.
+Produsele se impart in doua tipuri: preparate si bauturi
+Fiecare produs are un nume si un pret.
+
+Preparatele pot fi de un anumit tipuri: post, peste, carne, altele.
+Bauturile pot fi de mai multe tipuri: spirtoase, alcolice, sucuri, altele. 
+
+Preparatele cat si bauturile pot fi fomate din mai multe ingrediente.
+Ingredientele sunt de tipuri diferite: carne, lactat, grăsimi și uleiuri, fructe si legume, de cofetrie, panificate, peste, altele
+Ingredientele au un nume si firma producatore unice.
+
+Deoarece numele si firma producatore (optional) sunt unice pentru fiecare ingredient, se vor stoca informatii care pot diferi de la un ingredient identic cu altul: data expirarii, data cumpararii, cantitate.
+
+La final se va genera un bon pentru comanda.
+Comenzile sunt identificate printr-un id unic al comenzii.
+Comenzile vor contine produsele comandate si un numar al mesei optional.

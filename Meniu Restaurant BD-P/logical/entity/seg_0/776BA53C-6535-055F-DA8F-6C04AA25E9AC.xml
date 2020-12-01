@@ -28,6 +28,19 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="tip_bautura" id="5E05A373-6566-CFEA-213C-8A62E8715C87">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 12:07:54 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nr_categorie_bauturi" id="913DA35E-F193-F8F9-6F9F-10699C867780">
 <createdBy>cosmi</createdBy>
 <createdTime>2020-12-01 10:23:53 UTC</createdTime>
@@ -41,20 +54,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tip_bautura" id="5E05A373-6566-CFEA-213C-8A62E8715C87">
-<createdBy>cosmi</createdBy>
-<createdTime>2020-12-01 12:07:54 UTC</createdTime>
-<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
-<engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

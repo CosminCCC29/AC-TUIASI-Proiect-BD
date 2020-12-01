@@ -72,13 +72,12 @@
 <attributeRef>12B2507A-D193-E9DE-62B3-8E9E808EAD93</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="94761DBA-8955-6497-487B-A4D6A34BA89D" name="nr_categorie_nume_categorie_UK">
+<identifier id="89EBE49E-5E0C-323A-22F0-F71D301B29D7" name="nr_meniu_nume_categorie_UK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-01 14:47:49 UTC</createdTime>
+<createdTime>2020-12-01 16:16:45 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="false"/>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
 <newElementsIDs>B97C898C-D5FA-D913-6A76-1941FD95F6DA,D793A5B5-8759-4346-5BB7-98D33E7821BF</newElementsIDs>
 <usedAttributes>

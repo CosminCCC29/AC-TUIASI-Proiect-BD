@@ -42,30 +42,15 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_categorie" id="81E213BD-3D8F-7FF4-04A1-BC6137D839CD">
+<Attribute name="nr_categorie_preparate" id="5B2F4CE1-23D4-B728-7769-1C4DA95F1D3F">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-01 15:06:27 UTC</createdTime>
-<generatorID>282DC5F6-08EB-31CD-55FC-B786360E4269</generatorID>
+<createdTime>2020-12-01 16:30:58 UTC</createdTime>
+<generatorID>E285E3B3-7277-04BD-4DE1-CF2DE1B077C4</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
-<referedAttribute>E29FC172-7CFC-3DCC-DEA0-08F9589780FD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_meniu" id="623BDD86-74D5-E697-A322-28930B5310FD">
-<createdBy>cosmi</createdBy>
-<createdTime>2020-12-01 15:12:01 UTC</createdTime>
-<generatorID>282DC5F6-08EB-31CD-55FC-B786360E4269</generatorID>
-<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
-<engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
-</engineerTo>
-<referedAttribute>12B2507A-D193-E9DE-62B3-8E9E808EAD93</referedAttribute>
+<referedAttribute>C231D3EF-CCA4-C7B4-6400-31EDBA27D99B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -84,8 +69,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C8D6C6A2-2352-724B-50E5-3B3F34EE4E75</attributeRef>
-<attributeRef>81E213BD-3D8F-7FF4-04A1-BC6137D839CD</attributeRef>
-<attributeRef>623BDD86-74D5-E697-A322-28930B5310FD</attributeRef>
+<attributeRef>5B2F4CE1-23D4-B728-7769-1C4DA95F1D3F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

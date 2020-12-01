@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CDC2DE1-DE5A-8EFD-86FA-C7380D817355" name="Categorii">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:34:41 UTC</createdTime>
+<generatorID>875DE9BA-A1A6-6153-8503-58B36B543229</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_categorie" id="EDB88DF8-2327-2B0B-DB61-74DC9AD8AC74">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:34:41 UTC</createdTime>
+<generatorID>E29FC172-7CFC-3DCC-DEA0-08F9589780FD</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Meniuri_nr_meniu" id="34464B79-48D5-1FDB-92A2-7775736B4434">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:34:41 UTC</createdTime>
+<generatorID>12B2507A-D193-E9DE-62B3-8E9E808EAD93</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53DD85E9-ABAE-D2CB-034B-59EA985E4772" referredColumn="3A2C11BC-CACB-D8A4-7073-819DDA15661E"/>
+</associations>
+</Column>
+<Column name="nume_categorie" id="E871CB19-7B10-90C8-14F7-554342F5D4F3">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:34:41 UTC</createdTime>
+<generatorID>B97C898C-D5FA-D913-6A76-1941FD95F6DA</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84E7834C-55FA-E2FE-7BEC-191422849871" name="Categorii_PK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:34:41 UTC</createdTime>
+<generatorID>F6405EDF-B01E-D937-8650-C859F368DDD4</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDB88DF8-2327-2B0B-DB61-74DC9AD8AC74"/>
+<colUsage columnID="34464B79-48D5-1FDB-92A2-7775736B4434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23E39462-1E18-3497-384A-E54731B8B411" name="Categorii_nume_categorie_nr_meniu_UN">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:34:41 UTC</createdTime>
+<generatorID>89EBE49E-5E0C-323A-22F0-F71D301B29D7</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E871CB19-7B10-90C8-14F7-554342F5D4F3"/>
+<colUsage columnID="34464B79-48D5-1FDB-92A2-7775736B4434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51A9D4AA-D61A-7F46-AEF5-3532B3BC6E26" name="Categorii_Meniuri_FK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:35:38 UTC</createdTime>
+<generatorID>D793A5B5-8759-4346-5BB7-98D33E7821BF</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34464B79-48D5-1FDB-92A2-7775736B4434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

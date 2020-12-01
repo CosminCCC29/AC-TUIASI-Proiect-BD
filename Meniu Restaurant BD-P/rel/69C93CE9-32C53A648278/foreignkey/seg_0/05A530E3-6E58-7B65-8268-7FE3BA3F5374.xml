@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="05A530E3-6E58-7B65-8268-7FE3BA3F5374" containerWithKeyObject="5C232664-0FC5-36ED-62D9-1B7F5EB6769A" localFKIndex="05611613-0986-53AF-C0C0-1AB318A0FBFC" name="Produse_bauturi_Produse_FK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-01 16:35:38 UTC</createdTime>
+<generatorID>D629CBA4-747B-B3E1-C609-A96B70860AE8</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<referredTableLongName>Produse</referredTableLongName>
+<arc>210D37CD-B3BE-9232-48B0-0A1419326DD9</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5967AA77-0357-8F7B-1E67-3D79BAB1C4A5</referredTableID>
+<keyObject>76C4EE07-71F0-1DB1-DF7B-D1ACCBCA5263</keyObject>
+<referredKeyID>76C4EE07-71F0-1DB1-DF7B-D1ACCBCA5263</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_produs</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
