@@ -61,22 +61,6 @@
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_comanda" id="30C8FFD3-903B-CBA6-2E09-27FAB9A689E3">
-<createdBy>cosmi</createdBy>
-<createdTime>2020-12-01 13:34:02 UTC</createdTime>
-<generatorID>CC11D568-049C-BB6C-33AF-983A23AFF9DB</generatorID>
-<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
-<engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
-</engineerTo>
-<referedAttribute>3D09D89E-3A32-7E2F-07E4-0E43958E84D8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

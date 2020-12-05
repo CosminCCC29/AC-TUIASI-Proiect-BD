@@ -1,21 +1,22 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="meniuri_categorii_FK" directorySegmentName="seg_0" id="D793A5B5-8759-4346-5BB7-98D33E7821BF">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="categorii_produse" directorySegmentName="seg_0" id="E8984173-134F-FECF-5C1B-5F5F21063604">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-11-30 13:48:35 UTC</createdTime>
+<createdTime>2020-12-04 09:30:07 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
-<sourcePk>E05CF41D-90F5-3BC2-E594-984C4B473C36</sourcePk>
+<sourcePk>F6405EDF-B01E-D937-8650-C859F368DDD4</sourcePk>
+<targetPk>11D1BDC6-E9C8-4FF8-8D0B-B50F31510750</targetPk>
 <identifying>false</identifying>
 <nameOnSource>formate din</nameOnSource>
 <nameOnTarget>fac parte din</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
-<sourceEntity>EA33EA57-5C55-0DB8-2A37-3CD212D1C98F</sourceEntity>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>875DE9BA-A1A6-6153-8503-58B36B543229</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>875DE9BA-A1A6-6153-8503-58B36B543229</targetEntity>
+<targetEntity>A8E67E07-4E78-B03F-B60D-407D8FE98BB9</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
