@@ -56,6 +56,33 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="data_crearii" id="67ED8B1E-6FBE-61F1-B337-7A92086A1C6E">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 13:49:32 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<constraintName>meniuri_data_crearii_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="detalii_suplimentare_meniu" id="AA894EA3-D119-B5BD-A075-0A7B64F394F0">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 14:11:42 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E05CF41D-90F5-3BC2-E594-984C4B473C36" name="Meniuri_restaurant PK">

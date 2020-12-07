@@ -7,7 +7,7 @@
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
 <sourcePk>4BE2D38E-C243-EACF-CA4D-65015CF78501</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <nameOnSource>alcatuit</nameOnSource>
 <nameOnTarget>alcatuiesc</nameOnTarget>
 <optionalSource>true</optionalSource>

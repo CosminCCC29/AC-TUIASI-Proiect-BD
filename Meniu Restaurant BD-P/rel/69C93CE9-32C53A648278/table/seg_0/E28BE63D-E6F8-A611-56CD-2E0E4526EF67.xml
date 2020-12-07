@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C69A4F7-7B7D-37DD-EC11-89BD6C603F4E" name="Meniuri">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E28BE63D-E6F8-A611-56CD-2E0E4526EF67" name="Meniuri">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>EA33EA57-5C55-0DB8-2A37-3CD212D1C98F</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nr_meniu" id="D4458B58-E17E-291D-CD20-15333AEAF6F1">
+<Column name="nr_meniu" id="63CF059F-0D1A-98EC-E2D1-C7E9BF6C8E2E">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>2340F15E-E840-38CE-432D-BE4B4C6EB6E1</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nume_meniu" id="11AFB965-DD68-7848-C1AC-FCE0F9E24BAA">
+<Column name="nume_meniu" id="F7DBE2CE-E045-CAE7-3445-62FA852B92C0">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>EA319EC5-3E22-320C-FE22-5B2E122EAC78</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Administratori_id_admin" id="5DE930FA-F418-9746-EDC5-BE7DA5AADF70">
+<Column name="Administratori_id_admin" id="4BB319A2-F0DE-4251-0EA9-961D4BDC4FF7">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>7D3FCD24-2C67-886C-8642-40694EDE7B43</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,43 +45,68 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="375363B3-2D7F-33EC-2C96-912B60BF8961" referredColumn="5BCC8041-FBC1-A56B-F560-2459F83ED32B"/>
+<colAssociation fkAssociation="B7278C51-ED01-A6E8-68A9-6BB17E5906AB" referredColumn="E505C449-9492-4284-63A1-508B0FE3E47B"/>
 </associations>
+</Column>
+<Column name="data_crearii" id="287218CA-2980-A12A-DE28-14DF97335ECA">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<generatorID>67ED8B1E-6FBE-61F1-B337-7A92086A1C6E</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<constraintName>meniuri_data_crearii_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detalii_suplimentare_meniu" id="52D12FAA-3A47-95A2-0466-CA943CBFD650">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<generatorID>AA894EA3-D119-B5BD-A075-0A7B64F394F0</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3FC35004-E87C-3F25-42D7-774DEA7DD6C6" name="Meniuri_PK">
+<ind_PK_UK id="433B485E-54B7-3996-144E-F963F62C4C18" name="Meniuri_PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>E05CF41D-90F5-3BC2-E594-984C4B473C36</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D4458B58-E17E-291D-CD20-15333AEAF6F1"/>
+<colUsage columnID="63CF059F-0D1A-98EC-E2D1-C7E9BF6C8E2E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3314F16A-49D8-D724-1436-65A867F3D4CC" name="Meniuri_nume_meniu_UN">
+<ind_PK_UK id="3363CCA0-09E5-0AB0-67D8-657707719BF9" name="Meniuri_nume_meniu_UN">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>7DF7CE62-FB4E-AF38-6D83-FF837C19E1EB</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="11AFB965-DD68-7848-C1AC-FCE0F9E24BAA"/>
+<colUsage columnID="F7DBE2CE-E045-CAE7-3445-62FA852B92C0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1611924F-FAC4-A2EB-BD46-A9FB2CC629B1" name="Meniuri_Administratori_FK">
+<ind_PK_UK id="6BE7E755-575E-3D1C-EAAC-318FFDE02BB8" name="Meniuri_Administratori_FK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>D6F86465-29BD-8D2A-8964-3CF71A871129</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5DE930FA-F418-9746-EDC5-BE7DA5AADF70"/>
+<colUsage columnID="4BB319A2-F0DE-4251-0EA9-961D4BDC4FF7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

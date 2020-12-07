@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="844DF6BD-84AA-4E0F-9567-20BBA4FEDEC2" name="Administratori">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F66217BC-3E89-8A76-7D58-5C918EA61CCE" name="Administratori">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>E1D1A820-A09B-B09D-FCCA-1627BA4A7060</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_admin" id="5BCC8041-FBC1-A56B-F560-2459F83ED32B">
+<Column name="id_admin" id="E505C449-9492-4284-63A1-508B0FE3E47B">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>C74F0548-8BE3-5D25-9B18-C024267D1752</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nume_prenume_cont" id="655F2332-97C7-ED99-4771-1638DFA4E931">
+<Column name="nume_prenume_cont" id="C5D0FBD8-1398-C3F5-C5FC-6B4EB30E5F10">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>0B2EAEF9-F49A-7D5F-5562-55C5B14D75C9</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,30 +32,30 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="parola_cont" id="F7BA2FFA-E99B-28F0-DACE-5A7013BDD5A0">
+<Column name="parola_cont" id="2D71834D-B8FF-E43E-3244-C09B1CB07BE2">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>5812E9D4-1419-59B3-D023-BF13826A7B98</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>30</dataTypePrecision>
-<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="45A7A5DA-BF08-0EE0-BAEB-44C1A3BAB954" name="Administratori_PK">
+<ind_PK_UK id="814BAEA6-77BC-DAC5-E2C2-B76E62927C6C" name="Administratori_PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 15:01:27 UTC</createdTime>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
 <generatorID>8476A5D2-6D1C-B408-37BE-FA24B581819D</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5BCC8041-FBC1-A56B-F560-2459F83ED32B"/>
+<colUsage columnID="E505C449-9492-4284-63A1-508B0FE3E47B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

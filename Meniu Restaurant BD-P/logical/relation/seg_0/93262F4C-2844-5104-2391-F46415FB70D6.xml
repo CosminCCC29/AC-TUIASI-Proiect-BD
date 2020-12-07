@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ingrediente_tipuri_inr_FK" directorySegmentName="seg_0" id="93262F4C-2844-5104-2391-F46415FB70D6">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 14:25:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<sourcePk>021937A7-068F-9985-0DCC-951C6DFBA106</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>apartin de</nameOnSource>
+<nameOnTarget>au</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C6412B2F-A825-38DB-91AB-EE3B2EE1483B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C269011C-F839-C5E5-28F4-675F911D5276</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

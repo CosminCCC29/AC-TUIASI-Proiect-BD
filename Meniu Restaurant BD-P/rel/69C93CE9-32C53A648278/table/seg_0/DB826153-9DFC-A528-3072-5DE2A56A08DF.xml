@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB826153-9DFC-A528-3072-5DE2A56A08DF" name="tipuri_aliment">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<generatorID>C6412B2F-A825-38DB-91AB-EE3B2EE1483B</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nume_tip" id="B9F8DC1C-F786-7A1C-6A1A-A95A33FDFCBA">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<generatorID>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15150387-11FA-6C28-D592-255BC66C15CE" name="tipuri_aliment_PK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<generatorID>021937A7-068F-9985-0DCC-951C6DFBA106</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9F8DC1C-F786-7A1C-6A1A-A95A33FDFCBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

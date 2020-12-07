@@ -41,9 +41,9 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cantitate_disponibila" id="CFE74894-DF0E-89E9-B646-5AE9A51F6B49">
+<Attribute name="stoc_ingredient" id="DEEC5FA2-F452-79CB-4F72-FDA50B1D1D32">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 14:03:59 UTC</createdTime>
+<createdTime>2020-12-06 14:22:16 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
@@ -53,20 +53,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="unitate_masura" id="6324F0EB-759E-6E19-3D12-40DA3E8BD87D">
-<createdBy>cosmi</createdBy>
-<createdTime>2020-12-05 14:04:37 UTC</createdTime>
-<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
-<engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="producator" id="EDCA5AC0-ABEF-731A-CA55-7D9660F0A614">
 <createdBy>cosmi</createdBy>
@@ -81,6 +67,21 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume_tip" id="BCF099EE-FBBC-3740-99B1-FECDBE12547C">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-06 14:48:25 UTC</createdTime>
+<generatorID>93262F4C-2844-5104-2391-F46415FB70D6</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<referedAttribute>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -101,8 +102,9 @@
 <createdBy>cosmi</createdBy>
 <createdTime>2020-12-05 14:14:22 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="false"/>
 </engineerTo>
 <newElementsIDs>29FE693D-ACAB-D896-3A92-6CBB2FB4762F,A51517FA-0534-2F28-790D-4E137DE3F5A9,EDCA5AC0-ABEF-731A-CA55-7D9660F0A614</newElementsIDs>
 <usedAttributes>
