@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8FEF386-6A18-96EE-8BCF-A713304A84B4" containerWithKeyObject="2850D1DE-0442-CE4F-AF05-359C523EB111" localFKIndex="4A95B84C-4EB0-A652-B178-ED73F63D4886" name="reteta_Produse_FK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<generatorID>640E166E-4EC2-5F4A-868E-7C5155E25037</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<referredTableLongName>Produse</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7753711B-2400-04C7-026A-C1FDB4563078</referredTableID>
+<keyObject>9E49FC43-EBA6-9111-96EB-B0428B63C2D3</keyObject>
+<referredKeyID>9E49FC43-EBA6-9111-96EB-B0428B63C2D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_produs</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

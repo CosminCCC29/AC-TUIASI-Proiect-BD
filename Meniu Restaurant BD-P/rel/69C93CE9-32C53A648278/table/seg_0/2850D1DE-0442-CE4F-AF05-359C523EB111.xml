@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14DAB3D7-C35D-E2C9-7A4D-7C29790C5A34" name="reteta">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2850D1DE-0442-CE4F-AF05-359C523EB111" name="reteta">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<createdTime>2020-12-07 18:08:00 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Produse_nr_produs" id="DE455270-A4BE-FCC4-872E-4D68467C67ED">
+<Column name="Produse_nr_produs" id="D28C94EF-AF92-495B-947C-859911D594AE">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<createdTime>2020-12-07 18:08:00 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EE0FF665-B7F0-72FB-9399-04005CB5AD5B" referredColumn="B99AD123-855A-49EE-81AF-30CB02B0B507"/>
+<colAssociation fkAssociation="E8FEF386-6A18-96EE-8BCF-A713304A84B4" referredColumn="38A34072-DD84-EA97-CD32-5C31DF6CF719"/>
 </associations>
 </Column>
-<Column name="Ingrediente_id_ingredient" id="ADE0B5BB-2316-45FE-3197-BE7BCB845857">
+<Column name="Ingrediente_id_ingredient" id="7EF2975E-A8B9-87AA-D5C1-BD2AACDADB5D">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<createdTime>2020-12-07 18:08:00 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,58 +34,58 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0E61BE8E-76B6-B147-D7AF-11853AEB1C21" referredColumn="7D1512A5-99DD-14E8-A7ED-82AD1B6DACE9"/>
+<colAssociation fkAssociation="E6FB0BF3-EA4B-E676-59E3-E75DB500FA4E" referredColumn="3F5B7839-7497-B0F4-5474-88F3FC1B7D77"/>
 </associations>
 </Column>
-<Column name="cantitate_ingredient" id="8D354835-EB47-B17D-661D-5665E1AD545D">
+<Column name="cantitate_ingredient" id="AE5AF363-7661-D7E7-DCD3-1C8EDCCF8B90">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<createdTime>2020-12-07 18:08:00 UTC</createdTime>
 <generatorID>C6EE1FF7-AAE0-9A1F-B466-7A177D0BA821</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <isRelationshipColumn>true</isRelationshipColumn>
 <isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E6A7DBD4-39D2-4A70-CFEC-5412CD7A39EC" name="reteta_PK">
+<ind_PK_UK id="A6B92773-9685-9101-3659-47B4D531AB1B" name="reteta_PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<createdTime>2020-12-07 18:08:00 UTC</createdTime>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DE455270-A4BE-FCC4-872E-4D68467C67ED"/>
-<colUsage columnID="ADE0B5BB-2316-45FE-3197-BE7BCB845857"/>
+<colUsage columnID="D28C94EF-AF92-495B-947C-859911D594AE"/>
+<colUsage columnID="7EF2975E-A8B9-87AA-D5C1-BD2AACDADB5D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A0BBB30B-4405-F196-2939-C4F247EB63EF" name="reteta_Produse_FK">
+<ind_PK_UK id="4A95B84C-4EB0-A652-B178-ED73F63D4886" name="reteta_Produse_FK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<createdTime>2020-12-07 18:08:00 UTC</createdTime>
 <generatorID>640E166E-4EC2-5F4A-868E-7C5155E25037</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DE455270-A4BE-FCC4-872E-4D68467C67ED"/>
+<colUsage columnID="D28C94EF-AF92-495B-947C-859911D594AE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AFCAAB96-AA93-2A9C-64EF-1C55311147CF" name="reteta_Ingrediente_FK">
+<ind_PK_UK id="A63AA390-2009-6905-D956-EF38C3D79AC6" name="reteta_Ingrediente_FK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 21:16:02 UTC</createdTime>
+<createdTime>2020-12-07 18:08:00 UTC</createdTime>
 <generatorID>640E166E-4EC2-5F4A-868E-7C5155E25037</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ADE0B5BB-2316-45FE-3197-BE7BCB845857"/>
+<colUsage columnID="7EF2975E-A8B9-87AA-D5C1-BD2AACDADB5D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
