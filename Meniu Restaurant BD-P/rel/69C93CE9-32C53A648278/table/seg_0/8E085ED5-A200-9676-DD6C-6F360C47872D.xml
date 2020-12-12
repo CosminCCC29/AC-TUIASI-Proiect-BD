@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="885C5D83-339E-5564-A132-099B92BAC1BD" name="Ingrediente">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E085ED5-A200-9676-DD6C-6F360C47872D" name="Ingrediente">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>C269011C-F839-C5E5-28F4-675F911D5276</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_ingredient" id="3F5B7839-7497-B0F4-5474-88F3FC1B7D77">
+<Column name="id_ingredient" id="A0CE8038-6D0A-EDD5-EB1E-077DC86E0CD6">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>29FE693D-ACAB-D896-3A92-6CBB2FB4762F</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nume_ingredient" id="6BA030FF-7A20-EE56-0155-0DE58BCCD72A">
+<Column name="nume_ingredient" id="D7C9EBD9-79BC-6232-1B83-54B53A57BC4C">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>A51517FA-0534-2F28-790D-4E137DE3F5A9</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,22 +32,26 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="stoc_ingredient" id="E3C54315-D75F-60DA-6B69-90720C11F24E">
+<Column name="stoc_ingredient" id="67C75412-A9CF-C0F9-F645-74CDFF6C9D6A">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>DEEC5FA2-F452-79CB-4F72-FDA50B1D1D32</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<constraintName>stoc_ingredient_ck</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="stoc_ingredient &gt; 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="producator" id="67B91732-A1C1-A1B2-41D0-B9D6ECF57E51">
+<Column name="producator" id="FC4462B8-7231-53E1-855E-2EFDA7C2C875">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>EDCA5AC0-ABEF-731A-CA55-7D9660F0A614</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -58,9 +62,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipuri_aliment_nume_tip" id="053FCD3C-545C-6A91-6C3B-258C708B45BD">
+<Column name="tipuri_aliment_nume_tip" id="DBAD0997-6664-0B5A-A1DF-51D9755C4174">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>BCF099EE-FBBC-3740-99B1-FECDBE12547C</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,44 +75,44 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="75312361-84FF-4086-DE12-B57323DCA8BD" referredColumn="6BFE6B24-29CF-937E-5A77-C93EE731D63E"/>
+<colAssociation fkAssociation="6DC84650-BD18-D163-915E-B48377B33700" referredColumn="D2EFD71A-66D8-EA6D-6413-D8926273DB72"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="33B50619-E2C5-E031-83B8-E90FC796151A" name="Ingrediente_PK">
+<ind_PK_UK id="C56663E6-F034-72B3-9778-F381BE459D64" name="Ingrediente_PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>406EC7E3-EFF3-A719-DDFC-B7FE7BF220D3</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3F5B7839-7497-B0F4-5474-88F3FC1B7D77"/>
+<colUsage columnID="A0CE8038-6D0A-EDD5-EB1E-077DC86E0CD6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="398D3E7E-9558-E934-E13E-52DA9920BDAB" name="Ingrediente_nume_ingredient_producator_UN">
+<ind_PK_UK id="4D874987-5EB8-2C6D-24DF-189EC8B6A344" name="Ingrediente_nume_ingredient_producator_UN">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>F5FDF6BA-3C27-1101-3785-C391E3876B0C</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6BA030FF-7A20-EE56-0155-0DE58BCCD72A"/>
-<colUsage columnID="67B91732-A1C1-A1B2-41D0-B9D6ECF57E51"/>
+<colUsage columnID="D7C9EBD9-79BC-6232-1B83-54B53A57BC4C"/>
+<colUsage columnID="FC4462B8-7231-53E1-855E-2EFDA7C2C875"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0EC6108D-FCB3-AF60-5FC7-7E9B4964437D" name="Ingrediente_tipuri_aliment_FK">
+<ind_PK_UK id="EB908D51-1B9F-3304-906A-A5EC8FFFC857" name="Ingrediente_tipuri_aliment_FK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>93262F4C-2844-5104-2391-F46415FB70D6</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="053FCD3C-545C-6A91-6C3B-258C708B45BD"/>
+<colUsage columnID="DBAD0997-6664-0B5A-A1DF-51D9755C4174"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

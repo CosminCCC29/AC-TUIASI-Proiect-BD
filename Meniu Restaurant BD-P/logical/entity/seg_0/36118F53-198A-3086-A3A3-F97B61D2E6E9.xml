@@ -49,10 +49,27 @@
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
+<constraintName>nr_masa_ck</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="nr_masa &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="detalii_suplimentare_comanda" id="C5751D3E-9A6E-6186-D551-0524A85515F2">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-08 07:30:43 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

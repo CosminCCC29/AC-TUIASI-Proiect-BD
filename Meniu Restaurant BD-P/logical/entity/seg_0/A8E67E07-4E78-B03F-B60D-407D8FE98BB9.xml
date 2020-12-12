@@ -38,8 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>65</dataTypeSize>
+<ownDataTypeParameters>65,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tip_produs" id="6B6B4630-4597-A802-B9DC-70A24145F91C">
 <createdBy>cosmi</createdBy>
@@ -65,10 +65,14 @@
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
+<constraintName>pret_ck</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="pret &gt; 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="data_crearii" id="C5CD73BD-8A66-09C1-03D3-5BCD33CDF4E6">

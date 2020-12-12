@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A77642FD-1ACA-41DE-75EF-CA8DF74DBEDA" name="Comenzi">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A5326D0-7D52-1437-5958-34B844FAD614" name="Comenzi">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>36118F53-198A-3086-A3A3-F97B61D2E6E9</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_comanda" id="4A0A3537-5D18-26C3-BBF9-F1FAA7FB662D">
+<Column name="id_comanda" id="0E17E533-A203-1DC2-8F30-AF1B6DAAFF75">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>3D09D89E-3A32-7E2F-07E4-0E43958E84D8</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_comanda" id="751E7C50-6A70-AF67-91EF-E1C743682254">
+<Column name="data_comanda" id="EB17A6B2-A750-4232-BFB3-0BEBA2ACD5ED">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>39137868-D887-ECC2-14AD-4F80501B0B16</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <constraintName>comenzi_data_comanda_ck</constraintName>
@@ -33,30 +33,46 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nr_masa" id="D011B9F7-A186-400D-04BF-4AACDD107F11">
+<Column name="nr_masa" id="12170532-A2B8-C95D-A882-DFADF2F27826">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>1BEBA3EE-D1D9-D233-0972-43634255CF06</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<constraintName>nr_masa_ck</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="nr_masa &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detalii_suplimentare_comanda" id="DA588DDE-7F88-42E0-E0B6-C9A8975BC0F7">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
+<generatorID>C5751D3E-9A6E-6186-D551-0524A85515F2</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1A2237E6-6531-02B6-4FA0-DD27F8C49536" name="Comenzi_PK">
+<ind_PK_UK id="4E41A4A3-901D-7C30-9BA9-220579D49A0C" name="Comenzi_PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-07 18:08:00 UTC</createdTime>
+<createdTime>2020-12-12 17:30:48 UTC</createdTime>
 <generatorID>4BE2D38E-C243-EACF-CA4D-65015CF78501</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4A0A3537-5D18-26C3-BBF9-F1FAA7FB662D"/>
+<colUsage columnID="0E17E533-A203-1DC2-8F30-AF1B6DAAFF75"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

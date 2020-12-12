@@ -22,11 +22,15 @@
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
+<constraintName>nr_produse_comandate_ck</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="nr_produse_comandate &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nr_produs" id="4C9FC833-90BF-9471-48D8-C4332C03F829">
 <createdBy>cosmi</createdBy>
@@ -41,7 +45,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_comanda" id="C7CE2948-21DA-174E-E723-3248FECC92A4">
 <createdBy>cosmi</createdBy>
