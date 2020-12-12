@@ -35,10 +35,14 @@
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
+<constraintName>nume_categorie_ck</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_categorie, &apos;^[A-Z][a-z]+\ ?(\ ?[a-z]+)+$&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nr_meniu" id="12B2507A-D193-E9DE-62B3-8E9E808EAD93">

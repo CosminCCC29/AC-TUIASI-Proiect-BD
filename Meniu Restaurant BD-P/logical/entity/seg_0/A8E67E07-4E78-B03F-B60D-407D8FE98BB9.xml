@@ -35,10 +35,14 @@
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
+<constraintName>nume_produs_ck</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>65</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_produs, &apos;^[A-Z][a-z]+(\ ?[A-Za-z0-9]+(\.[0-9]+)?)+$&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>65,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tip_produs" id="6B6B4630-4597-A802-B9DC-70A24145F91C">

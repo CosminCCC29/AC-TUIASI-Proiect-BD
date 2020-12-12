@@ -28,7 +28,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="length(nume_tip) &gt; 0"/>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_tip, &apos;^[a-z]+\-?[a-z]+$&apos;)"/>
 </checkConstraint>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>

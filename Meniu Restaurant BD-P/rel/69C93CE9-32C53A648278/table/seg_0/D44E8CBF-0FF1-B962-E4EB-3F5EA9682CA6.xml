@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2CA21F7-8E90-09B0-C7BC-29F6893C09D6" name="tipuri_aliment">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D44E8CBF-0FF1-B962-E4EB-3F5EA9682CA6" name="tipuri_aliment">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-12 17:30:48 UTC</createdTime>
+<createdTime>2020-12-12 20:26:13 UTC</createdTime>
 <generatorID>C6412B2F-A825-38DB-91AB-EE3B2EE1483B</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nume_tip" id="D2EFD71A-66D8-EA6D-6413-D8926273DB72">
+<Column name="nume_tip" id="FF7BF176-3D63-297C-5D0D-99EE7BE954B8">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-12 17:30:48 UTC</createdTime>
+<createdTime>2020-12-12 20:26:13 UTC</createdTime>
 <generatorID>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <constraintName>nume_tip_ck</constraintName>
@@ -26,16 +26,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="19DE0718-CDA1-D52B-5DD0-D07784442C0D" name="tipuri_aliment_PK">
+<ind_PK_UK id="6BD321FE-686D-97A8-565D-D36D3AB390FF" name="tipuri_aliment_PK">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-12 17:30:48 UTC</createdTime>
+<createdTime>2020-12-12 20:26:13 UTC</createdTime>
 <generatorID>021937A7-068F-9985-0DCC-951C6DFBA106</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D2EFD71A-66D8-EA6D-6413-D8926273DB72"/>
+<colUsage columnID="FF7BF176-3D63-297C-5D0D-99EE7BE954B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
