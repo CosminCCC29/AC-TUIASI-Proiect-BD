@@ -3,28 +3,30 @@ GitHub: https://github.com/CosminCCC29/Proiect-BD
 
 Specificatii:
 
-Un meniu va fi poate format din mai mai multe categorii. Acesta este identificat unic printr-un numar de ordine si va avea un nume unic.
-Acesta este administrat de unul sau mai multi administratori. Administratorii se vor loga cu un id, nume si parola.
+Un meniu poate fi format din mai mai multe categorii. Acesta este identificat unic printr-un numar de ordine si va avea un nume unic in baza de date.
+Meniurile vor contine o data de creare cat si detalii suplimentare optionale pentru descrierea acestora.
+Acesta este administrat de unul sau mai multi administratori. Administratorii se vor loga cu un nume si o parola.
 
 Meniul poate contine unul sau mai multe categorii.
-Categoriile sunt identificate unic in meniu printr-un numar de ordine. si vor avea de asemenea si un nume unic doar in cadrul unuia din meniuri.
-Fiecare categorie face parte doar din una din cele 2 tipuri de categorii: preparate sau bauturi. Aceste doua tipuri de categorii li se vor atribuii cate un numar de ordine pentru categoria respectiva.
+Categoriile sunt identificate printr-un numar unic. Acestea vor avea un nume unic in cadrul fiecarui meniu.
+Categoriile vor contine o data de creare cat si detalii suplimentare optionale pentru descrierea acestora.
 
 Categoriile pot contine unul sau mai multe produse.
 Produsele sunt identificate printr-un numar unic.
 Produsele se impart in doua tipuri: preparate si bauturi
-Fiecare produs are un nume si un pret.
+Fiecarui produs ii este asociat un nume unic, un pret, o data de creare cat si detalii suplimentare optionale pentru descrierea acestora.
+Produsele pentru care nu se folosesc ingrediente pentru prepararea lor (ex: bauturi sigilate, apa la sticla), vor avea un stoc propriu.
 
-Preparatele pot fi de un anumit tipuri: post, peste, carne, altele.
-Bauturile pot fi de mai multe tipuri: spirtoase, alcolice, sucuri, altele. 
+Produsele pot fi fomate din unul sau mai multe ingrediente.
+Ingredientele au un nume si o firma producatore, impreuna formand o pereche unica in baza de date.
+Pentru fiecare ingredient se va tine cont de stocul acestuia.
 
-Preparatele cat si bauturile pot fi fomate din mai multe ingrediente.
-Ingredientele sunt de tipuri diferite: carne, lactat, grăsimi și uleiuri, fructe si legume, de cofetrie, panificate, peste, altele
-Ingredientele au un nume si firma producatore unice.
-Ingredientele au si o cantitate specificata (Aici cantitatea trebuie sa vad cum o interetez si in ce entitate trebuie pusa).
+Produsele cat si ingredientele pot fi de un anumit tip: post, peste, carne, lactat, alcoolice, non-alcoolice etc... 
 
-Deoarece numele si firma producatore (optional) sunt unice pentru fiecare ingredient, se vor stoca informatii care pot diferi de la un ingredient identic cu altul: data expirarii, data cumpararii.
+Pentru produsele care sunt preparate pe baza ingredientelor, se va tine evidenta retetelor acestora.
+Acestea contin ingredientele folosite, cat si cantitatea folosita din ingredientul respectiv.
 
-La final se va genera un bon pentru comanda.
-Comenzile sunt identificate printr-un id unic al comenzii.
-Comenzile vor contine produsele comandate si un numar al mesei optional.
+La final se vor genera comenzi.
+Comenzile sunt identificate printr-un id unic.
+Produsele comandate vor fi asociate unei comenzi.
+Comenzile contin o data de creare, optonal un numar al mesei cat si detalii suplimentare optionale pentru mai multe detalii.
