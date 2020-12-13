@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_categorie, &apos;^[A-Z][a-z]+\ ?(\ ?[a-z]+)+$&apos;)"/>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_categorie, &apos;^[A-Z][a-z]+([\ \-]?[a-z]+)*$&apos;)"/>
 </checkConstraint>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>

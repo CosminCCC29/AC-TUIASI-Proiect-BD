@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_prenume_cont, &apos;^[A-Z][a-z]+\ (\-?[A-Z][a-z]+){1,2}$)"/>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_prenume_cont, &apos;^([A-Z][a-z]+)\ ([A-Z][a-z]+)(\-[A-Z][a-z]+)?$&apos;)"/>
 </checkConstraint>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
@@ -75,6 +75,19 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C74F0548-8BE3-5D25-9B18-C024267D1752</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2B492CDC-8A48-1A76-0B14-74C458E174B1" name="nume_parola_uk">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 10:19:19 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<newElementsIDs>0B2EAEF9-F49A-7D5F-5562-55C5B14D75C9,5812E9D4-1419-59B3-D023-BF13826A7B98</newElementsIDs>
+<usedAttributes>
+<attributeRef>0B2EAEF9-F49A-7D5F-5562-55C5B14D75C9</attributeRef>
+<attributeRef>5812E9D4-1419-59B3-D023-BF13826A7B98</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

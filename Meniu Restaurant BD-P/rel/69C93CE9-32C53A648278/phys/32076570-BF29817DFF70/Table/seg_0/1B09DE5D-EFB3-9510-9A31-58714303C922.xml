@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Administratori" directorySegmentName="seg_0" id="1B09DE5D-EFB3-9510-9A31-58714303C922">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="parola_cont" id="41988812-AAB5-F83E-5A96-B347DF832D26">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_admin" id="A4B7ECE7-A9A5-4211-107B-D1E34484D996">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_prenume_cont" id="F169632A-5573-CF69-C075-5927564C4364">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Administratori_PK" id="509525B0-A76D-8187-E225-73A75B0343AA">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Administratori_nume_parola_UN" id="663A2F02-4102-6B80-5A8C-4DEB5A2AE96D">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

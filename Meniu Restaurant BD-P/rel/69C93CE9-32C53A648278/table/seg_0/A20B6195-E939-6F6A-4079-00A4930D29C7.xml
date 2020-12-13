@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A20B6195-E939-6F6A-4079-00A4930D29C7" name="categorii_produse">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Categorii_nr_categorie" id="1995F0DE-4FB0-6FA1-79DB-D04D75AE3591">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C643F8E4-FB66-9E02-940C-F2ED0D130645" referredColumn="8906902B-7FA1-90FB-F7E4-5B71A7A1220B"/>
+</associations>
+</Column>
+<Column name="Produse_nr_produs" id="373D8ED6-5276-C008-9A17-290956782A54">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4A3D372-587E-E8C1-20D1-890CB4E27467" referredColumn="B5FB3917-BCD0-878C-1C84-FE704B40C450"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="833B3284-A8D4-0ED2-65F2-079815406220" name="categorii_produse_PK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1995F0DE-4FB0-6FA1-79DB-D04D75AE3591"/>
+<colUsage columnID="373D8ED6-5276-C008-9A17-290956782A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE1DE99F-F1E6-A33E-A68B-7B49E41B38A0" name="categorii_produse_Categorii_FK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<generatorID>E8984173-134F-FECF-5C1B-5F5F21063604</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1995F0DE-4FB0-6FA1-79DB-D04D75AE3591"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71B7B18F-B160-69F0-E264-2DC2F06C6C4E" name="categorii_produse_Produse_FK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<generatorID>E8984173-134F-FECF-5C1B-5F5F21063604</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="373D8ED6-5276-C008-9A17-290956782A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

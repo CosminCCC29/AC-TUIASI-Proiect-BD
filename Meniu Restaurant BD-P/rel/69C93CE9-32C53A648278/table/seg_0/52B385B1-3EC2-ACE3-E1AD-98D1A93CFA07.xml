@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52B385B1-3EC2-ACE3-E1AD-98D1A93CFA07" name="tipuri_aliment">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<generatorID>C6412B2F-A825-38DB-91AB-EE3B2EE1483B</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nume_tip" id="89EF0A9C-73A8-6CB3-2EB1-4A0EBF547AEB">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<generatorID>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<constraintName>nume_tip_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_tip, &apos;^[a-z]+\-?[a-z]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6719BA18-FFEB-8DD9-0973-F9086D372AEB" name="tipuri_aliment_PK">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-13 11:47:03 UTC</createdTime>
+<generatorID>021937A7-068F-9985-0DCC-951C6DFBA106</generatorID>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89EF0A9C-73A8-6CB3-2EB1-4A0EBF547AEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

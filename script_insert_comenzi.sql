@@ -8,7 +8,7 @@ DECLARE
     produs_in_stoc stocuri_produs.stoc_produs%TYPE;
 BEGIN
 
-    INSERT INTO Comenzi(id_comanda) VALUES(1);
+    INSERT INTO Comenzi(id_comanda) VALUES(NULL);
 
     -- Produs comandat: 2 X Ursus 330 ml
     BEGIN
@@ -58,7 +58,7 @@ DECLARE
     produs_in_stoc stocuri_produs.stoc_produs%TYPE;
 BEGIN
 
-    INSERT INTO Comenzi(id_comanda) VALUES(2);
+    INSERT INTO Comenzi(id_comanda) VALUES(NULL);
 
     -- Produs comandat: 2 X Supa cu legume
     BEGIN
@@ -89,7 +89,7 @@ DECLARE
     produs_in_stoc stocuri_produs.stoc_produs%TYPE;
 BEGIN
 
-    INSERT INTO Comenzi(id_comanda) VALUES(3);
+    INSERT INTO Comenzi(id_comanda) VALUES(NULL);
 
     -- Produs comandat: 4 X Suc portocale 330 ml
     BEGIN
@@ -120,7 +120,7 @@ DECLARE
     produs_in_stoc stocuri_produs.stoc_produs%TYPE;
 BEGIN
 
-    INSERT INTO Comenzi(id_comanda) VALUES(4);
+    INSERT INTO Comenzi(id_comanda) VALUES(NULL);
 
     -- Produs comandat: 4 X Pizza cu piept de pui
     BEGIN
@@ -151,7 +151,7 @@ DECLARE
     produs_in_stoc stocuri_produs.stoc_produs%TYPE;
 BEGIN
 
-    INSERT INTO Comenzi(id_comanda) VALUES(5);
+    INSERT INTO Comenzi(id_comanda) VALUES(NULL);
 
     -- Produs comandat: 4 X Limonada 330 ml
     BEGIN
