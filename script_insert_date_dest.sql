@@ -1,4 +1,3 @@
--- Administratori_nume_parola_UN
 -- Categorii_nr_meniu_nume_cat_UN
 -- Ingrediente_nume_ingr_prod_UN
 
@@ -12,11 +11,11 @@ INSERT INTO administratori(nume_prenume_cont, parola_cont) VALUES('Alin Popescu'
 
 -- Inserare in tabela meniuri
 
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2019', (SELECT id_admin FROM administratori where nume_prenume_cont = 'Cojocaru Constantin-Cosmin'));
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2018', (SELECT id_admin FROM administratori where nume_prenume_cont = 'Budeanu Radu-Andrei'));
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2017', (SELECT id_admin FROM administratori where nume_prenume_cont = 'Alexandru Gabriel'));
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2016', (SELECT id_admin FROM administratori where nume_prenume_cont = 'Ionut Popescu'));
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2015', (SELECT id_admin FROM administratori where nume_prenume_cont = 'Alin Popescu'));
+INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2019', 1);
+INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2018', 2);
+INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2017', 3);
+INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2016', 4);
+INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2015', 5);
 
 ------------------------------------------ MENIUL 2019 ------------------------------------------
 
@@ -97,6 +96,7 @@ INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES(
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate lichide' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Supa cu taitei'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate lichide' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Ciorba de vita cu legume'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din peste' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Pastrav la gratar cu legume'));
+INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din peste' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Somon afumat'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din carne' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Cotlet de porc la gratar'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din carne' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Friptura de vita cu legume'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din carne' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Piept de pui la gratar cu cartofi'));
@@ -117,6 +117,7 @@ INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES(
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate lichide' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2018')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Supa cu taitei'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate lichide' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2018')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Ciorba de vita cu legume'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din peste' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2018')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Pastrav la gratar cu legume'));
+INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din peste' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2018')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Somon afumat'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din carne' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2018')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Cotlet de porc la gratar'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din carne' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2018')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Friptura de vita cu legume'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Preparate din carne' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2018')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Piept de pui la gratar cu cartofi'));

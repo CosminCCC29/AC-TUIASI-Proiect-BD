@@ -7,12 +7,9 @@
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
 <sourcePk>F6405EDF-B01E-D937-8650-C859F368DDD4</sourcePk>
-<targetPk>11D1BDC6-E9C8-4FF8-8D0B-B50F31510750</targetPk>
 <identifying>false</identifying>
-<nameOnSource>formate din</nameOnSource>
-<nameOnTarget>fac parte din</nameOnTarget>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>875DE9BA-A1A6-6153-8503-58B36B543229</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

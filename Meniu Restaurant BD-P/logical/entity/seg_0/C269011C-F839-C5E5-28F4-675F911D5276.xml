@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_ingredient, &apos;^[a-z]+(\ ?[a-z]+)*$&apos;)"/>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_ingredient, &apos;^[a-z]+(\ [a-z]+)*$&apos;)"/>
 </checkConstraint>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
@@ -85,6 +85,7 @@
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

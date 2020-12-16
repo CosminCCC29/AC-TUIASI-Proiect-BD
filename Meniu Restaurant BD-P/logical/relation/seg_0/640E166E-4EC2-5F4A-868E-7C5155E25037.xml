@@ -8,7 +8,7 @@
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>A8E67E07-4E78-B03F-B60D-407D8FE98BB9</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
@@ -23,19 +23,16 @@
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
-<constraintName>cantitate_ingrediente_ck</constraintName>
+<constraintName>cantitate_ingredient_ck</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="cantitate_ingredient &gt; 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>0</beginValue>
-<endValue>99.99</endValue>
-</rangeDef>
-</listOfRanges>
 </attribute>
 </attributes>
 </Relation>

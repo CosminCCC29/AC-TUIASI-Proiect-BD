@@ -11,7 +11,7 @@
 <nameOnSource>apartin de</nameOnSource>
 <nameOnTarget>au</nameOnTarget>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>C6412B2F-A825-38DB-91AB-EE3B2EE1483B</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

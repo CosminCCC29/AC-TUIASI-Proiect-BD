@@ -1,4 +1,4 @@
-Tema proiectului: Aplicatie meniu digital pentru un restaurant
+Tema proiectului: Gestiunea meniurilor, stocurilor și al comenzilor unui restaurant
 GitHub: https://github.com/CosminCCC29/Proiect-BD
 
 Specificatii:
@@ -13,7 +13,7 @@ Categoriile vor contine o data de creare cat si detalii suplimentare optionale p
 
 Categoriile pot contine unul sau mai multe produse.
 Produsele sunt identificate printr-un numar unic.
-Produsele se impart in doua tipuri: preparate si bauturi
+Produsele se impart in doua tipuri: preparate si bauturi.
 Fiecarui produs ii este asociat un nume unic, un pret, o data de creare cat si detalii suplimentare optionale pentru descrierea acestora.
 Produsele pentru care nu se folosesc ingrediente pentru prepararea lor (ex: bauturi sigilate, apa la sticla), vor avea un stoc propriu.
 
@@ -28,5 +28,5 @@ Acestea contin ingredientele folosite, cat si cantitatea folosita din ingredient
 
 La final se vor genera comenzi.
 Comenzile sunt identificate printr-un id unic.
-Produsele comandate vor fi asociate unei comenzi.
+Produsele comandate vor fi asociate unei comenzi, iar pentru fiecare produs se va specifica numarul de produse comandate.
 Comenzile contin o data de creare, optonal un numar al mesei cat si detalii suplimentare optionale pentru mai multe detalii.

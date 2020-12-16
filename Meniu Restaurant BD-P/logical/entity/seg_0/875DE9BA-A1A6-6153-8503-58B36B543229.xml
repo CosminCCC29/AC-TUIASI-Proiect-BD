@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_categorie, &apos;^[A-Z][a-z]+([\ \-]?[a-z]+)*$&apos;)"/>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(nume_categorie, &apos;^[A-Z][a-z]+([\ \-][a-z]+)*$&apos;)"/>
 </checkConstraint>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
@@ -68,6 +68,7 @@
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
 <constraintName>categorii_data_crearii_ck</constraintName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>

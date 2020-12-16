@@ -153,9 +153,9 @@ BEGIN
 
     INSERT INTO Comenzi(id_comanda) VALUES(NULL);
 
-    -- Produs comandat: 4 X Limonada 330 ml
+    -- Produs comandat: 2 X Limonada 330 ml
     BEGIN
-        produse_comandate := 4;
+        produse_comandate := 2;
         INSERT INTO produse_comenzi(nr_produse_comandate, Produse_nr_produs, Comenzi_id_comanda) VALUES(produse_comandate, (SELECT nr_produs FROM Produse WHERE nume_produs = 'Limonada 330 ml'), (SELECT MAX(id_comanda) FROM Comenzi));
 
         SELECT COUNT(Produse_nr_produs) INTO produs_in_reteta FROM Reteta r WHERE r.Produse_nr_produs = (SELECT nr_produs FROM Produse WHERE nume_produs = 'Limonada 330 ml');

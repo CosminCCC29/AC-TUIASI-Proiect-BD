@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="trg_data_comanda_comenzi" directorySegmentName="seg_0" id="CE12E8D9-F76F-8109-075F-49937F6AA338">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-16 15:51:52 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+	IF ( :new.data_comanda < SYSDATE )
+	THEN
+		RAISE_APPLICATION_ERROR( -20001,
+			'Data invalida: ' || TO_CHAR( :new.data_comanda, 'DD.MM.YYYY HH24:MI:SS' ) || 'trebuie sa fie egala sau mai mare decat data curenta.' );
+	END IF;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>E51DE2BB-A660-9645-205F-21A54C29A8F1</table>
+</TriggerOraclev10g>
