@@ -45,11 +45,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_comanda" id="C7CE2948-21DA-174E-E723-3248FECC92A4">
+<Attribute name="id_comanda" id="FC0C4E42-C111-9054-E751-0753054C95B3">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-04 08:26:58 UTC</createdTime>
+<createdTime>2020-12-17 18:25:08 UTC</createdTime>
 <generatorID>D363A7AC-89EA-9C21-19AE-8486D35C5F67</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
@@ -59,8 +59,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -74,8 +74,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C7CE2948-21DA-174E-E723-3248FECC92A4</attributeRef>
 <attributeRef>4C9FC833-90BF-9471-48D8-C4332C03F829</attributeRef>
+<attributeRef>FC0C4E42-C111-9054-E751-0753054C95B3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

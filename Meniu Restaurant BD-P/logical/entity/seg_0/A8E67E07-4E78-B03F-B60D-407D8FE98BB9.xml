@@ -25,8 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nume_produs" id="2F0676F4-32D7-02FE-20BD-4263053F8BE8">
 <createdBy>cosmi</createdBy>
@@ -79,6 +79,25 @@
 </checkConstraint>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="stare" id="F5C04639-541F-3854-1781-53EA5B04DCE1">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 21:45:37 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<constraintName>stare_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<listOfValues>
+<valueDef value="ACTIV" description=""/>
+<valueDef value="INACTIV" description=""/>
+</listOfValues>
+<defaultValue>ACTIV</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="data_crearii" id="C5CD73BD-8A66-09C1-03D3-5BCD33CDF4E6">
 <createdBy>cosmi</createdBy>
 <createdTime>2020-12-06 13:48:21 UTC</createdTime>
@@ -107,21 +126,21 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nume_tip" id="180279FD-CCAB-8D6F-DB88-25322000C70E">
+<Attribute name="id_tip" id="ED247460-B10B-DF5F-607E-AE8575094ECB">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 21:11:01 UTC</createdTime>
+<createdTime>2020-12-17 17:47:31 UTC</createdTime>
 <generatorID>58DBF34E-5043-EA7D-9E61-37A284472A60</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</referedAttribute>
+<referedAttribute>DF118FD5-AC21-D43C-54C2-8BE58EF0E450</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

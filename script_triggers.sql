@@ -1,4 +1,6 @@
--- trg_data_crearii_ingrediente
+-- trg_data_crearii_meniuri
+-- trg_data_crearii_categorii
+-- trg_data_crearii_produse
 -- trg_data_comanda_comenzi
 
 BEGIN

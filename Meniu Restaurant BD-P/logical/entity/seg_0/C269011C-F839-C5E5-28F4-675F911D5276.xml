@@ -25,8 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nume_ingredient" id="A51517FA-0534-2F28-790D-4E137DE3F5A9">
 <createdBy>cosmi</createdBy>
@@ -77,21 +77,21 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nume_tip" id="BCF099EE-FBBC-3740-99B1-FECDBE12547C">
+<Attribute name="id_tip" id="C6EF35DC-0277-68AE-B80D-977B56265384">
 <createdBy>cosmi</createdBy>
-<createdTime>2020-12-06 14:48:25 UTC</createdTime>
+<createdTime>2020-12-17 17:47:31 UTC</createdTime>
 <generatorID>93262F4C-2844-5104-2391-F46415FB70D6</generatorID>
 <ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
 <engineerTo>
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</referedAttribute>
+<referedAttribute>DF118FD5-AC21-D43C-54C2-8BE58EF0E450</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

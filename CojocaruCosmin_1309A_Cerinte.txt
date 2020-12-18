@@ -9,21 +9,22 @@ Acesta este administrat de unul sau mai multi administratori. Administratorii se
 
 Meniul poate contine unul sau mai multe categorii.
 Categoriile sunt identificate printr-un numar unic. Acestea vor avea un nume unic in cadrul fiecarui meniu.
-Categoriile vor contine o data de creare cat si detalii suplimentare optionale pentru descrierea acestora.
+Categoriile vor contine o data optionala de creare cat si detalii suplimentare optionale pentru descrierea acestora.
 
 Categoriile pot contine unul sau mai multe produse.
 Produsele sunt identificate printr-un numar unic.
 Produsele se impart in doua tipuri: preparate si bauturi.
-Fiecarui produs ii este asociat un nume unic, un pret, o data de creare cat si detalii suplimentare optionale pentru descrierea acestora.
+Fiecarui produs ii este asociat un nume unic, un pret, o data optionala de creare cat si detalii suplimentare optionale pentru descrierea acestora.
+Produsele care se doresc sa nu mai fie folosite si care au fost folosite la comenzi se vor înregistra ca fiind dezactivate.
 Produsele pentru care nu se folosesc ingrediente pentru prepararea lor (ex: bauturi sigilate, apa la sticla), vor avea un stoc propriu.
 
-Produsele pot fi fomate din unul sau mai multe ingrediente.
+Produsele pot fi alcatuite din unul sau mai multe ingrediente.
 Ingredientele au un nume si o firma producatore, impreuna formand o pereche unica in baza de date.
 Pentru fiecare ingredient se va tine cont de stocul acestuia.
 
 Produsele cat si ingredientele pot fi de un anumit tip: post, peste, carne, lactat, alcoolice, non-alcoolice etc... 
 
-Pentru produsele care sunt preparate pe baza ingredientelor, se va tine evidenta retetelor acestora.
+Produsele care sunt preparate pe baza ingredientelor, pentru aceastea, se va tine evidenta retetelor acestora.
 Acestea contin ingredientele folosite, cat si cantitatea folosita din ingredientul respectiv.
 
 La final se vor genera comenzi.

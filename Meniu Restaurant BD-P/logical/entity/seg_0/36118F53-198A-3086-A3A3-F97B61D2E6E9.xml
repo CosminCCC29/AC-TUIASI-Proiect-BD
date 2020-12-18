@@ -25,8 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="data_comanda" id="39137868-D887-ECC2-14AD-4F80501B0B16">
 <createdBy>cosmi</createdBy>
@@ -54,10 +54,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
 <checkConstraint>
 <implementationDef dbType="Generic Constraint" definition="nr_masa &gt; 0"/>
 </checkConstraint>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="detalii_suplimentare_comanda" id="C5751D3E-9A6E-6186-D551-0524A85515F2">
 <createdBy>cosmi</createdBy>

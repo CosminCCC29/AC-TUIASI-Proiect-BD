@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Produse" directorySegmentName="seg_0" id="08753368-A770-4E5F-C4B3-E985C95C6D30">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="detalii_suplimentare_produs" id="054FD7F5-795D-E43D-37C1-18E03A926AED">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pret" id="8AF86232-5423-C331-485D-35B5BA92F45D">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipuri_aliment_id_tip" id="91081307-1BE2-F857-56AE-262D60F286A5">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume_produs" id="96B6CC02-979A-B0A1-37D6-7DBF075C083F">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stare" id="B945A731-409E-33C2-043A-2165BCFC249A">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 21:50:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<defaultValue>ACTIV</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="nr_produs" id="D1194C68-95A0-1265-A633-B1E8A786688D">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tip_produs" id="E1575B3D-EB87-5B24-704A-81077DE77EEB">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_crearii" id="F5FB8631-00A0-5F88-5E79-C54D7AC6CF21">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Produse_tipuri_aliment_FK" id="A8687196-05AD-782A-4818-BD8820831AE3">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Produse_PK" id="12F70A2B-662B-BDA0-3E04-48274D85A666">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

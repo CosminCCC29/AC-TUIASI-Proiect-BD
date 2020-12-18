@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Comenzi" directorySegmentName="seg_0" id="5E4E33A2-FE2E-EAB7-C37D-09DCC1D73760">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nr_masa" id="01046D77-7A77-5538-8A5F-03804A69CFCB">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="detalii_suplimentare_comanda" id="18D3C067-EA18-1854-27D6-DB7AECCD29EE">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_comanda" id="26484E81-52D5-0493-4667-7DFA0261DA9B">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="id_comanda" id="D4F2CF95-AAE5-F848-7195-C730B5D645F6">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Comenzi_PK" id="E48018D7-A014-DB21-9C04-4E22AA73212F">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="tipuri_aliment" directorySegmentName="seg_0" id="F8154F55-421A-8172-2488-56A8147BA166">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nume_tip" id="38FFA907-972F-4B8D-EC0C-2BCDAA94ABFF">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_tip" id="B5473C3A-901E-681F-7C27-E7F6CAE9F589">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tipuri_aliment_PK" id="97612A8A-D379-CD12-68D9-33B4B8F62B8E">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="tipuri_aliment_nume_tip_UN" id="2B061A4F-9CFD-3A41-E907-816999C4F60A">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 19:52:17 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

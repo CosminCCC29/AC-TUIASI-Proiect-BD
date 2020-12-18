@@ -15,6 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tip" id="DF118FD5-AC21-D43C-54C2-8BE58EF0E450">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 17:47:16 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nume_tip" id="7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0">
 <createdBy>cosmi</createdBy>
 <createdTime>2020-12-06 14:36:46 UTC</createdTime>
@@ -43,6 +56,18 @@
 <item key="69C93CE9-C170-5056-AC37-32C53A648278" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>DF118FD5-AC21-D43C-54C2-8BE58EF0E450</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="356CE765-1436-B148-CB57-5874DFC05E19" name="nume_tip_uk">
+<createdBy>cosmi</createdBy>
+<createdTime>2020-12-17 18:09:24 UTC</createdTime>
+<ownerDesignName>Meniu Restaurant BD-P</ownerDesignName>
+<engineerTo>
+<item key="69C93CE9-C170-5056-AC37-32C53A648278" value="true"/>
+</engineerTo>
+<newElementsIDs>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</newElementsIDs>
 <usedAttributes>
 <attributeRef>7DA1A0D3-04C9-65E6-A7B5-52C0A59116E0</attributeRef>
 </usedAttributes>
