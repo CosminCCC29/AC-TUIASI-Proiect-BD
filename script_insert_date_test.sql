@@ -3,47 +3,47 @@
 
 -- Inserare in tabela administratori
 
-INSERT INTO administratori(nume_prenume_cont, parola_cont) VALUES('Cojocaru Constantin-Cosmin', '134679');
-INSERT INTO administratori(nume_prenume_cont, parola_cont) VALUES('Budeanu Radu-Andrei', 'parola123');
-INSERT INTO administratori(nume_prenume_cont, parola_cont) VALUES('Alexandru Gabriel', '123parola123');
-INSERT INTO administratori(nume_prenume_cont, parola_cont) VALUES('Ionut Popescu', '123456789');
-INSERT INTO administratori(nume_prenume_cont, parola_cont) VALUES('Alin Popescu', 'parolasigura1');
+INSERT INTO Administratori(nume_prenume_cont, parola_cont) VALUES('Cojocaru Constantin-Cosmin', '134679');
+INSERT INTO Administratori(nume_prenume_cont, parola_cont) VALUES('Budeanu Radu-Andrei', 'parola123');
+INSERT INTO Administratori(nume_prenume_cont, parola_cont) VALUES('Alexandru Gabriel', '123parola123');
+INSERT INTO Administratori(nume_prenume_cont, parola_cont) VALUES('Ionut Popescu', '123456789');
+INSERT INTO Administratori(nume_prenume_cont, parola_cont) VALUES('Alin Popescu', 'parolasigura1');
 
 -- Inserare in tabela meniuri
 
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2019', 1);
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2018', 2);
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2017', 3);
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2016', 4);
-INSERT INTO meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2015', 5);
+INSERT INTO Meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2019', 1);
+INSERT INTO Meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2018', 2);
+INSERT INTO Meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2017', 3);
+INSERT INTO Meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2016', 4);
+INSERT INTO Meniuri(nume_meniu, Administratori_id_admin) VALUES('Meniu an 2015', 5);
 
 ------------------------------------------ MENIUL 2019 ------------------------------------------
 
 -- Inserare in tabela categorii
 
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate lichide', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate din peste', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate din carne', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Pizza', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Salate', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate lichide', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate din peste', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate din carne', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Pizza', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Salate', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
 
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Vinuri', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bere', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bauturi non-alcoolice', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bauturi spirtoase', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Vinuri', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bere', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bauturi non-alcoolice', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bauturi spirtoase', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2019'));
 
 ------------------------------------------ MENIUL 2018 ------------------------------------------
 
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate lichide', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate din peste', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate din carne', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Pizza', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Salate', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate lichide', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate din peste', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Preparate din carne', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Pizza', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Salate', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
 
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Vinuri', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bere', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bauturi non-alcoolice', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
-INSERT INTO categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bauturi spirtoase', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Vinuri', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bere', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bauturi non-alcoolice', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
+INSERT INTO Categorii(nume_categorie, Meniuri_nr_meniu) VALUES('Bauturi spirtoase', (SELECT nr_meniu FROM meniuri where nume_meniu = 'Meniu an 2018'));
 
 -- Inserare in tabela tipuri_aliment
 
@@ -110,6 +110,8 @@ INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES(
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Bauturi non-alcoolice' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Apa plata 0.5 l'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Bauturi non-alcoolice' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Suc portocale 330 ml'));
 INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Bauturi non-alcoolice' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Limonada 330 ml'));
+INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Bauturi non-alcoolice' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Fanta 330 ml'));
+INSERT INTO categorii_produse(Categorii_nr_categorie, Produse_nr_produs) VALUES((SELECT nr_categorie FROM Categorii WHERE nume_categorie = 'Bauturi non-alcoolice' and meniuri_nr_meniu = (SELECT nr_meniu FROM Meniuri WHERE nume_meniu = 'Meniu an 2019')), (SELECT nr_produs FROM Produse WHERE nume_produs = 'Pepsi 330 ml'));
 
 -- Inserare in tabela categorii_produse MENIU 2018
 
@@ -160,27 +162,27 @@ INSERT INTO Ingrediente(nume_ingredient, stoc_ingredient, tipuri_aliment_id_tip)
 
 -- Inserare in tabela Retete
 
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Supa cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'amestec de legume' and producator = 'Comert'), 1);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Supa cu taitei'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'pachet taitei' and producator = 'Comert'), 0.5);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Ciorba de vita cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'bucati carne de vita' and producator = 'Comert'), 1);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Ciorba de vita cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'amestec de legume' and producator = 'Comert'), 1);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Pastrav la gratar cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'pastrav' and producator = 'Comert'), 1);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Supa cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'amestec de legume' and producator IS NULL), 1);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Supa cu taitei'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'pachet taitei' and producator IS NULL), 0.5);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Ciorba de vita cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'bucati carne de vita' and producator IS NULL), 1);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Ciorba de vita cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'amestec de legume' and producator IS NULL), 1);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Pastrav la gratar cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'pastrav' and producator IS NULL), 1);
 INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Pastrav la gratar cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'lamaie'), 0.5);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Somon afumat'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'file de somon' and producator = 'Comert'), 2);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Cotlet de porc la gratar'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'cotlet de porc' and producator = 'Comert'), 2);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Friptura de vita cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'bucati carne de vita' and producator = 'Comert'), 2);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Friptura de vita cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'amestec de legume' and producator = 'Comert'), 1);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Piept de pui la gratar cu cartofi'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'piept de pui' and producator = 'Comert'), 0.5);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Piept de pui la gratar cu cartofi'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'cartofi' and producator = 'Comert'), 4);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Specialtatea casei'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'salam de porc' and producator = 'Comert'), 0.5);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Specialtatea casei'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'cascaval' and producator = 'Comert'), 1.5);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Pizza cu piept de pui'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'piept de pui' and producator = 'Comert'), 1);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Salata de rosii si castraveti'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'rosii' and producator = 'Comert'), 3);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Salata de rosii si castraveti'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'castraveti' and producator = 'Comert'), 3);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Pizza de post'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'amestec de legume' and producator = 'Comert'), 1);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Salata de spanac cu pui'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'piept de pui' and producator = 'Comert'), 0.5);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Suc portocale 330 ml'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'portocala' and producator = 'Comert'), 3);
-INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Limonada 330 ml'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'lamaie' and producator = 'Comert'), 2);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Somon afumat'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'file de somon' and producator IS NULL), 2);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Cotlet de porc la gratar'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'cotlet de porc' and producator IS NULL), 2);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Friptura de vita cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'bucati carne de vita' and producator IS NULL), 2);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Friptura de vita cu legume'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'amestec de legume' and producator IS NULL), 1);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Piept de pui la gratar cu cartofi'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'piept de pui' and producator IS NULL), 0.5);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Piept de pui la gratar cu cartofi'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'cartofi' and producator IS NULL), 4);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Specialtatea casei'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'salam de porc' and producator IS NULL), 0.5);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Specialtatea casei'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'cascaval' and producator IS NULL), 1.5);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Pizza cu piept de pui'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'piept de pui' and producator IS NULL), 1);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Salata de rosii si castraveti'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'rosii' and producator IS NULL), 3);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Salata de rosii si castraveti'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'castraveti' and producator IS NULL), 3);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Pizza de post'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'amestec de legume' and producator IS NULL), 1);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Salata de spanac cu pui'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'piept de pui' and producator IS NULL), 0.5);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Suc portocale 330 ml'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'portocala' and producator IS NULL), 3);
+INSERT INTO Retete (Produse_nr_produs, Ingrediente_id_ingredient, cantitate_ingredient) VALUES((SELECT nr_produs FROM Produse WHERE nume_produs = 'Limonada 330 ml'), (SELECT id_ingredient FROM Ingrediente WHERE nume_ingredient = 'lamaie' and producator IS NULL), 2);
 
 -- Inserare in tabela stocuri_produs
 
